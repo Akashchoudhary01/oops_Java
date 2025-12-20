@@ -21,6 +21,8 @@ public class oopsFirst {
         Rishu.rollNumber = 69;
         Rishu.percent = 69.69f;
         System.out.println(Rishu.percent);
+
+   
         
     }
     
