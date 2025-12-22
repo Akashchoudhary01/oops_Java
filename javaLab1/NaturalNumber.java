@@ -1,4 +1,4 @@
-package javaLab1;
+
 import java.util.Scanner;
 public class NaturalNumber{
     public static void main(String[] args) {

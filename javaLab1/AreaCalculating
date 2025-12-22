@@ -1,0 +1,30 @@
+public class AreaCalculating{
+    public static void main(String [] args){
+
+        AreaCalculate obj = new AreaCalculate();
+
+        System.out.println("Area of circle: " + obj.area(5));
+        System.out.println("Area of rectangle: " + obj.area(5 , 6));
+        System.out.println("Area of triangle: " + obj.area(5 , 8 , true));
+
+    }
+}
+class AreaCalculate{
+
+    // Area of Circle
+    double area (double r){
+        double PI = 3.14;
+        return PI * r * r;
+    }
+
+    // Area of rectangle
+    double area(double l , double b){
+        return l * b;
+    }
+
+    // Area of triangle
+    double area(double b , double h , boolean isTriangle){
+        return 0.5 * b * h;
+    }
+}
+
