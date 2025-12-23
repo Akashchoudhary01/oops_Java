@@ -1,5 +1,5 @@
 //4. WAP to determine the sum of the following harmonic series for a given value of ‗n‘.  1+1/2+1/3+. . . _1/n 
-
+package javaLabExam;
 
 import java.util.Scanner;
 
